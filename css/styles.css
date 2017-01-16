@@ -5,6 +5,7 @@
   padding: 0px;
   font-family: 'Handlee', cursive;
 
+
 }
 .clasbody{
 background-color: #f1f1f1;
@@ -32,7 +33,107 @@ padding: 0px;
   font-size: 1.8em;
   line-height: 1.8em;
 }
+/* perro.html*/
+.imgheader{
+background:url('../img/perroheader.jpg');
+background-size: 100% 550px;
+background-repeat: no-repeat;
+width: 100%;
+height: 550px;
+padding: 0px;
+}
+.tras{
+  width: 100%;
+  height: 550px;
+  background: rgba(0,0,0,0.5);
+}
+.tras h1{
+  text-align: center;
+  font-size: 5em;
+  padding-top: 225px;
+  color: white;
+  text-shadow: 2px 2px #ccc;
+}
+.pageaimals{
+  float: left;
+  width: 50%;
+  border-right: 2px solid #ccc;
+  padding-right: 3%;
+  margin-left: 3%;
+}
+.titlepageanimals{
+  text-align: center;
+  padding-top: 1%;
+}
+.noteprincipal{
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #ccc;
+  margin-bottom: 5%;
+
+}
+.noteprincipal p{
+font-size: 2.5em;
+}
+.noteprincipal img{
+  width: 90%;
+}
+.noteprincipal .description{
+  text-align: justify;
+  padding: 5%;
+  font-size: 1.3em;
+}
+.cudados{
+  text-align: center;
+}
+.cudados{
+float:right;
+margin-top: 5%;
+width: 40%;
+padding-left: 3%;
+}
+.nota_cuidado{
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-top: 3%;
+  margin-bottom: 8%;
+  border-radius: 5px;
+  margin-right: 5%;
+  box-shadow: 1px 1px 10px #ccc;
+}
+.nota_cuidado img{
+  width: 100%;
+}
+.titlcuidado{
+  font-size: 2em;
+}
+.descripnota{
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 4%;
+}
+
+
+@media  (max-width:750px){
+.pageaimals{
+    float: none;
+    border: none;
+    width: 100%;
+  }
+  .cudados{
+    float: none;
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
 footer{
+  clear: both;
   background-color: rgba(0,0,0,0.8);
   padding:2%;
   text-align: center;
