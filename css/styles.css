@@ -42,6 +42,52 @@ width: 100%;
 height: 550px;
 padding: 0px;
 }
+.gato{
+background:url('../img/razas/gatos/gato-principal.jpg');
+background-size: 100% 550px;
+background-repeat: no-repeat;
+width: 100%;
+height: 550px;
+padding: 0px;
+}
+
+.ave{
+  background:url('../img/razas/aves/aveheader.jpg');
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  padding: 0px;
+
+}
+.serpientes{
+  background:url('../img/razas/serpientes/serpienteheader.jpg');
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  padding: 0px;
+
+}
+.arana{
+  background:url('../img/razas/aranas/aranaslider.jpg');
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  padding: 0px;
+
+}
+.exoticos{
+  background:url('../img/razas/exoticos/slider.jpg');
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  padding: 0px;
+
+}
+
 .tras{
   width: 100%;
   height: 550px;
